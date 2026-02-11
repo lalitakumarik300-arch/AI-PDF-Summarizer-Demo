@@ -1,0 +1,26 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI PDF Structured Summarizer</title>
+</head>
+<body style="font-family: Arial; padding: 40px;">
+
+    <h2>📄 AI-Based PDF Structured Summarizer</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Upload & Generate Summary</button>
+    </form>
+
+    <br><br>
+
+    {% if summary %}
+        <h3>Output:</h3>
+        <pre>{{ summary }}</pre>
+    {% endif %}
+
+</body>
+</html>
