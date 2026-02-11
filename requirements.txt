@@ -1,5 +1,5 @@
 
 flask
-
-PyMuPDF
 gunicorn
+pdfplumber
+
